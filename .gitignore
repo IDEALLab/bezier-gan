@@ -1,0 +1,11 @@
+beziergan/trained_gan/*
+results_opt/*
+!results_opt/*.svg
+results_fit
+results_clcd
+*.pyc
+*/*.pyc
+tmp
+__pycache__
+*/__pycache__
+*/tmp
