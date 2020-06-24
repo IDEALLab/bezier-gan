@@ -1,6 +1,6 @@
 # Bézier-GAN
 
-Experiment code associated with the paper: [Airfoil Design Parameterization and Optimization using Bézier Generative Adversarial Networks](https://arxiv.org/pdf/to.be.added.pdf)
+Experiment code associated with the paper: [Airfoil Design Parameterization and Optimization using Bézier Generative Adversarial Networks](https://arxiv.org/pdf/2006.12496.pdf)
 
 ![Alt text](/architecture.svg)
 
