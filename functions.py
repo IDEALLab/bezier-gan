@@ -7,8 +7,6 @@ from scipy.optimize import minimize
 
 from simulation import evaluate
 from beziergan.gan import GAN
-from nurbs.synthesis import synthesize as synthesize_nurbs
-from nurbs.fitting import nurbs_airfoil
 from ffd.synthesis import synthesize as synthesize_ffd
 
 from utils import train_test_plit
