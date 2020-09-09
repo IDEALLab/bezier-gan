@@ -29,6 +29,16 @@ Wei Chen, Kevin Chiu, and Mark Fuge. "Airfoil Design Parameterization and Optimi
 - matplotlib
 - autograd
 
+## Dataset
+
+Our airfoil designs come from [UIUC airfoil coordinates database](http://m-selig.ae.illinois.edu/ads/coord_database.html).
+
+The raw data contains variable number of points along airfoil curves. We created the training data by applying [B-spline interpolation](https://github.com/IDEALLab/airfoil-interpolation) on these designs and removed outlier designs.
+
+## CFD solver
+
+We use [XFOIL](https://web.mit.edu/drela/Public/web/xfoil/) as the CFD solver to evaluate the performance of the airfoil design.
+
 ## Usage
 
 ### Train/evaluate Bézier-GAN
@@ -108,12 +118,6 @@ optional arguments:
 ```
 
 Optimization history and optimal airfoil shapes are saved under directory `results_opt`.
-
-## Dataset
-
-Our airfoil designs come from [UIUC airfoil coordinates database](http://m-selig.ae.illinois.edu/ads/coord_database.html).
-
-The raw data contains variable number of points along airfoil curves. We created the training data by applying [B-spline interpolation](https://github.com/IDEALLab/airfoil-interpolation) on these designs and removed outlier designs.
 
 ## Results
 
