@@ -7,18 +7,18 @@ Experiment code associated with the paper: [Airfoil Design Parameterization and 
 ## License
 This code is licensed under the MIT license. Feel free to use all or portions for your research or related projects so long as you provide the following citation information:
 
-Wei Chen, Kevin Chiu, and Mark Fuge. "Airfoil Design Parameterization and Optimization using Bézier Generative Adversarial Networks." AIAA Journal (2020) Accepted.
+Chen, W., Chiu, K., & Fuge, M. D. (2020). Airfoil Design Parameterization and Optimization Using Bézier Generative Adversarial Networks. AIAA Journal, 58(11), 4723-4735.
 
     @article{chen2020airfoil,
-	  title={Airfoil Design Parameterization and Optimization using Bézier Generative Adversarial Networks},
-	  author={Chen, Wei and Chiu, Kevin and Fuge, Mark},
+	  title={Airfoil Design Parameterization and Optimization Using B{\'e}zier Generative Adversarial Networks},
+	  author={Chen, Wei and Chiu, Kevin and Fuge, Mark D},
 	  journal={AIAA Journal},
-	  volume={},
-	  number={},
-	  pages={},
+	  volume={58},
+	  number={11},
+	  pages={4723--4735},
 	  year={2020},
 	  publisher={American Institute of Aeronautics and Astronautics}
-        }
+	}
 
 ## Required packages
 
